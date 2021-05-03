@@ -26,3 +26,7 @@ python word_frequency_with_combiner.py data/book.txt > result/word_frequency_wit
 
 ECHO "<<<<<<<<<<<<<<<<<<<<< Most rated movie <<<<<<<<<<<<<<<<<<<<<"
 python most_popular_movie.py data/u.data > result/most_popular_movie_result.txt
+
+ECHO "<<<<<<<<<<<<<<<<<<<<< Most popular movie nicer <<<<<<<<<<<<<<<<<<<<<"
+python most_popular_movie_nicer.py --items=data/u.item data/u.data > result/most_popular_movie_nicer_result.txt
+
