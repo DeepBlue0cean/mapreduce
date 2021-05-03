@@ -23,3 +23,6 @@ python spend_by_customer_sorted.py data/customer-orders.csv > result/spend_by_cu
 
 ECHO "<<<<<<<<<<<<<<<<<<<<< Word frequency with combiner <<<<<<<<<<<<<<<<<<<<<"
 python word_frequency_with_combiner.py data/book.txt > result/word_frequency_with_combiner_result.txt
+
+ECHO "<<<<<<<<<<<<<<<<<<<<< Most rated movie <<<<<<<<<<<<<<<<<<<<<"
+python most_popular_movie.py data/u.data > result/most_popular_movie_result.txt
